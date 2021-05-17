@@ -28,8 +28,8 @@ PLAY = 1;
 GameState = PLAY;
 END = 0;
   
-FoodGroup = new Group();
-obstacleGroup = new Group();
+//FoodGroup = new Group();
+//obstacleGroup = new Group();
   
 monkey = createSprite(70, 370, 50, 50);
 monkey.addAnimation ("monkey", monkey_running);
